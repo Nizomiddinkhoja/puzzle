@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>15 PUZZLE</h1>
+  <p>Click on the box to move it and sort row-wise</p>
+  <div class="grid-container">
+    <!--    trackBy: trackByid-->
+    <div #el
+         *ngFor="let item of currentPosition; let i= index"
+         [attr.data-digit]="item.id"
+         [attr.data-row]="getRow(i)"
+         [attr.data-col]="getCol(i)"
+         [ngClass]="getClass(el, item)"
+         (click)="onClick(el)"
+    >{{!item.isEmt ? item.id : ''}}</div>
+  </div>
+  <div class="menu">
+    <button class="button" (click)="reset()">Reset</button>
+    <button class="button" (click)="undo()" [disabled]="!disabledUndo? false : true">Undo</button>
+  </div>
+  <h3>Total moves: {{count}}</h3>
+</div>
+

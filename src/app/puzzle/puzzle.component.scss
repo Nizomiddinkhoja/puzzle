@@ -1,0 +1,43 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  justify-content: center;
+}
+
+.grid-item {
+  width: 20px;
+  padding: 50px;
+  margin: 5px;
+  border: 1px solid #123445;
+  box-shadow: 1px 1px 4px 1px #ff0e0e;
+}
+
+.set {
+  padding: 50px;
+  margin: 5px;
+  border: 1px solid #123445;
+  box-shadow: 1px 1px 4px 1px #33ff00;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  text-transform: uppercase;
+  color: blue;
+  font-weight: bold;
+}
+
+.container p {
+  font-weight: 100;
+}
+
+.button {
+  margin: 10px;
+  height: 40px;
+  width: 100px;
+  border: solid 2px #0066ff;
+  border-radius: 5px;
+}
