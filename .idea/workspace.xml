@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1510c4-0e86-4d47-a3d5-27f69ae95b20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/puzzle/puzzle.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/puzzle/puzzle.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +85,7 @@
       <workItem from="1607679657787" duration="9438000" />
       <workItem from="1607690144508" duration="4606000" />
       <workItem from="1607947108823" duration="381000" />
+      <workItem from="1607947682368" duration="286000" />
     </task>
     <servers />
   </component>
